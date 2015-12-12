@@ -115,7 +115,7 @@ class BaseExecutor(ResourceProxy):
             res = stdout.strip() == test_message and not stderr
             print ['Failed', 'Success'][res]
             if stderr:
-                print>>sys.stderr, stderr
+                print >> sys.stderr, stderr
             return res
         except Exception:
             print 'Failed'

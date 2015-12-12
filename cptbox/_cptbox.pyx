@@ -1,5 +1,3 @@
-# distutils: language = c++
-# distutils: sources = ptdebug.cpp, ptdebug32.cpp, ptdebug64.cpp, ptproc.cpp
 from libc.stdio cimport FILE, fopen, fclose, fgets, sprintf
 from libc.stdlib cimport atoi, malloc, free, strtoul
 from libc.string cimport strncmp, strlen

@@ -8,7 +8,7 @@ import signal
 import sys
 import pty
 import pyximport
-pyximport.install(build_dir="./cptbox")
+pyximport.install(build_dir="./")
 from _cptbox import Process
 from .syscalls import translator, SYSCALL_COUNT, by_id
 
